@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PostIt</title>
+    <link rel="stylesheet" href="postit.css">
+</head>
+
+<body>
+
+    <h1>PostIt</h1>
+    <p>Social Media Posting with AES 192</p>
+
+   
+    <form id="userForm">
+        <input id="name" placeholder="Full Name" required>
+        <input id="dob" type="date" required>
+        <input id="year" placeholder="Year Level" required>
+        <input id="gender" placeholder="Gender" required>
+        <input id="username" placeholder="Username" required>
+        <input id="password" type="password" placeholder="Password" required>
+
+        <button>Continue</button>
+
+    </form>
+
+    <div id="postArea" class="hidden">
+        <p>Posting as: <b id="userDisplay"></b></p>
+
+        <form id="postForm">
+            <textarea id="caption"
+                placeholder="Write your caption..."
+                required></textarea>
+
+            <br>
+
+            <button>Post</button>
+        </form>
+        <div id="thread"></div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <script src="postit.js"></script>
+
+</body>
+
+</html>

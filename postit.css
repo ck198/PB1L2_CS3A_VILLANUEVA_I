@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
+    padding: 8px;
+}
+
+button {
+    padding: 7px 15px;
+    margin-top: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.post {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid gray;
+}
+
+.encrypted {
+    width: 500px;
+    word-break: break-all;
+}
